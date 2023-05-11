@@ -1,0 +1,78 @@
+* {
+  font-family: ;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom #f5e38d, #f1c49b);
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+nav li {
+  cursor: pointer;
+  width: 185px;
+  height: 80px;
+  font-size: 25px;
+  font-weight: 450;
+  background-color: #ece4db;
+  border-radius: 10px;
+  transition: all 1s;
+  margin: 10px 10px;
+}
+nav li:hover {
+  background-color: #fec89a;
+}
+nav li:hover span {
+  color: white;
+}
+nav li a span {
+  text-align: center;
+  color: #916040;
+  margin-left: 10px;
+  transition: all 0.5s;
+}
+nav li i {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(192, 112, 43, 0.6);
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  margin-top: 8px;
+  transition: all 0.5s;
+}
+nav li:hover i {
+  background-color: #157347;
+}
+nav .mainPage i {
+  background-color: #157347;
+}
+nav .mainPage span {
+  color: white;
+}
+nav .mainPage {
+  background-color: #fec89a;
+}
+/* form  */
+form {
+  background-color: rgba(254, 201, 154, 0.5);
+  width: 50%;
+  color: rgba(192, 112, 43, 0.6);
+  border-radius: 10px;
+}
+main .container h1 {
+  margin-top: 10px;
+  text-align: center;
+  color: rgba(192, 112, 43);
+}
+/* result  */
+.result {
+  background-color: rgba(231, 112, 7, 0.5);
+  width: 50%;
+  color: white;
+  border-radius: 10px;
+}
